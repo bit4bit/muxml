@@ -1,0 +1,21 @@
+PATH
+  remote: .
+  specs:
+    muxml (0.0.1)
+      rake
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    minitest (4.7.5)
+    rake (10.1.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  minitest (= 4.7.5)
+  muxml!
+
+BUNDLED WITH
+   1.12.5

@@ -1,0 +1,20 @@
+<document>
+  <section name="configuration">
+    <configuration name="acl.conf" description="meroo">
+      <network-lists name="testo">
+	<list name="domains" default="deny">
+	  <node type="deny" allow="127.0.0.0/24" />
+	</list>
+      </network-lists>
+    </configuration>
+    
+    <configuration name="modules.conf" description="Modules">
+      <modules>
+	<load module="fuiia"/>
+	<load module="carajo"/>
+      </modules>
+    </configuration>
+    
+  </section>
+  
+</document>
