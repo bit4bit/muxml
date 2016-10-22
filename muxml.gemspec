@@ -6,6 +6,8 @@ Gem::Specification.new do |s|
   s.authors = ["Jovany Leandro G.C"]
   s.email = 'bit4bit@riseup.net'
   s.files = Dir["lib/**/*" , "Rakefile"]
-  s.add_dependency 'rake'
+  s.homepage = 'http://bit4bit.github.com'
+  s.license = 'MIT'
+  s.add_dependency 'rake', '~> 0'
   s.add_development_dependency 'minitest', '4.7.5'
 end
